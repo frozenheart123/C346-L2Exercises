@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-// Exercise 1 & 3: a function component named Welcome that accepts the props "code" and "name"
 const Welcome = (props) => {
   return (
     <Text>
@@ -11,7 +10,6 @@ const Welcome = (props) => {
   );
 };
 
-// Exercise 2 & 3: a class component named ModuleInfo that lists my modules using Welcome
 class ModuleInfo extends Component {
   render() {
     return (
@@ -38,6 +36,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 50, // keeps the text below the phone's status bar
+    paddingTop: 50,
   },
 });
